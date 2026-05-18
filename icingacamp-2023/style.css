@@ -1,0 +1,18 @@
+h1 {
+    color: #df6436;
+    font-weight: bold;
+}
+
+:not(pre) > code::before, :not(pre) > code::after {
+	content: "";
+}
+
+.two-columns {
+    @apply space-x-4;
+}
+
+.thankyoucontent {
+    @apply relative;
+    @apply top-48;
+    @apply text-center;
+}
