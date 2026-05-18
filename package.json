@@ -7,7 +7,11 @@
     "build": "node scripts/build-all.mjs",
     "preview": "astro preview"
   },
-  "keywords": ["slidev", "slides", "presentations"],
+  "keywords": [
+    "slidev",
+    "slides",
+    "presentations"
+  ],
   "author": "Daniel Bodky <mail@dbodky.me>",
   "type": "module",
   "devDependencies": {
@@ -19,6 +23,7 @@
   },
   "dependencies": {
     "@iconify-json/fa6-brands": "^1.2.6",
-    "@iconify-json/vscode-icons": "^1.2.49"
+    "@iconify-json/vscode-icons": "^1.2.49",
+    "@netways-managed-services/slidev-theme-nws": "^1.1.0"
   }
 }

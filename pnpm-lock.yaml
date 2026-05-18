@@ -14,6 +14,9 @@ importers:
       '@iconify-json/vscode-icons':
         specifier: ^1.2.49
         version: 1.2.49
+      '@netways-managed-services/slidev-theme-nws':
+        specifier: ^1.1.0
+        version: 1.1.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@nuxt/kit@3.21.5(magicast@0.5.3))(@vue/compiler-sfc@3.5.34)(typescript@5.9.3)(vite@8.0.13(@types/node@22.19.19)(esbuild@0.27.7)(jiti@2.7.0)(yaml@2.9.0))
     devDependencies:
       '@astrojs/preact':
         specifier: ^5.1.3
@@ -643,6 +646,10 @@ packages:
     peerDependencies:
       '@emnapi/core': ^1.7.1
       '@emnapi/runtime': ^1.7.1
+
+  '@netways-managed-services/slidev-theme-nws@1.1.0':
+    resolution: {integrity: sha1-5gbJ16SbstwVmAQNJbawORIpq7E=, tarball: https://git.netways.de/api/v4/projects/2053/packages/npm/@netways-managed-services/slidev-theme-nws/-/@netways-managed-services/slidev-theme-nws-1.1.0.tgz}
+    engines: {node: '>=18.0.0'}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -4400,6 +4407,27 @@ snapshots:
       '@emnapi/runtime': 1.10.0
       '@tybys/wasm-util': 0.10.2
     optional: true
+
+  '@netways-managed-services/slidev-theme-nws@1.1.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@nuxt/kit@3.21.5(magicast@0.5.3))(@vue/compiler-sfc@3.5.34)(typescript@5.9.3)(vite@8.0.13(@types/node@22.19.19)(esbuild@0.27.7)(jiti@2.7.0)(yaml@2.9.0))':
+    dependencies:
+      '@slidev/types': 52.15.2(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@nuxt/kit@3.21.5(magicast@0.5.3))(@vue/compiler-sfc@3.5.34)(typescript@5.9.3)(vite@8.0.13(@types/node@22.19.19)(esbuild@0.27.7)(jiti@2.7.0)(yaml@2.9.0))
+    transitivePeerDependencies:
+      - '@emnapi/core'
+      - '@emnapi/runtime'
+      - '@nuxt/kit'
+      - '@pinia/colada'
+      - '@svgr/core'
+      - '@svgx/core'
+      - '@unocss/astro'
+      - '@unocss/postcss'
+      - '@unocss/webpack'
+      - '@vue/compiler-sfc'
+      - markdown-it-async
+      - pinia
+      - supports-color
+      - svelte
+      - typescript
+      - vite
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
