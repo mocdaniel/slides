@@ -1,4 +1,2 @@
-allowBuilds:
-  esbuild: true
-  playwright-chromium: true
-  sharp: true
+overrides:
+  dompurify: "^3.4.5"

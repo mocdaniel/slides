@@ -20,6 +20,6 @@
   "dependencies": {
     "@iconify-json/fa6-brands": "^1.2.6",
     "@iconify-json/vscode-icons": "^1.2.49",
-    "@netways-managed-services/slidev-theme-nws": "^1.1.0"
+    "@netways-managed-services/slidev-theme-nws": "1.1.1"
   }
 }
