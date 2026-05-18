@@ -4,8 +4,7 @@
   "description": "A monorepo for my Slidev presentations",
   "main": "index.js",
   "scripts": {
-    "build": "node scripts/build-all.mjs",
-    "preview": "astro preview"
+    "build": "node scripts/build-all.mjs"
   },
   "keywords": [
     "slidev",
@@ -15,11 +14,8 @@
   "author": "Daniel Bodky <mail@dbodky.me>",
   "type": "module",
   "devDependencies": {
-    "@astrojs/preact": "^5.1.3",
     "@slidev/cli": "^52.15.2",
-    "@slidev/theme-default": "latest",
-    "astro": "^6.3.3",
-    "preact": "^10.29.1"
+    "@slidev/theme-default": "latest"
   },
   "dependencies": {
     "@iconify-json/fa6-brands": "^1.2.6",
