@@ -1,14 +1,17 @@
 ---
 theme: default
 title: From Zero Observability to Zero-Code Observability with OpenTelemetry
-info: |
-  ## OSMC 2025
-  September 18, 2025
+info: An introductory workshop to OpenTelemetry's Zero-Code instrumentation across NodeJS, Python, and Golang.
+date: 2025-11-18
+event: OSMC 2025
+location: Nuremberg, Germany
+tags: ["OpenTelemetry", "Observability", "Workshop"]
 class: text-center
 transition: slide-left
 mdc: true
 layout: image
 image: /osmc-cover.png
+
 ---
 
 ---
