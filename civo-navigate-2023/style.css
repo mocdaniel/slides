@@ -1,0 +1,11 @@
+.two-columns {
+    @apply space-x-4;
+}
+
+:not(pre) > code::before, :not(pre) > code::after {
+	content: "";
+}
+
+:root {
+    --slidev-code-margin: 0;
+}
