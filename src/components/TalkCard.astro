@@ -1,0 +1,38 @@
+---
+import '../styles/talks.css';
+
+interface Props {
+  title: string;
+  info?: string;
+  date?: Date | string;
+  event?: string;
+  tags: string[];
+  slug: string;
+}
+
+const { title, info, date, event, tags, slug } = Astro.props;
+
+const formattedDate = date
+  ? new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
+  : null;
+---
+
+<a href={`/${slug}/`} class="talk-card">
+  <h2 class="talk-card-title">{title}</h2>
+
+  {(formattedDate || event) && (
+    <div class="talk-card-meta">
+      {formattedDate && <time datetime={new Date(date!).toISOString()}>{formattedDate}</time>}
+      {formattedDate && event && <span class="meta-sep">·</span>}
+      {event && <span>{event}</span>}
+    </div>
+  )}
+
+  {info && <p class="talk-card-info">{info}</p>}
+
+  {tags.length > 0 && (
+    <div class="talk-card-tags">
+      {tags.map(tag => <span class="tag-chip">{tag}</span>)}
+    </div>
+  )}
+</a>

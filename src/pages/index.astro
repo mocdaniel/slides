@@ -1,1 +1,28 @@
-<h1>Hello</h1>
+---
+import { getCollection } from 'astro:content';
+import TalkExplorer from '../components/TalkExplorer';
+
+const entries = await getCollection('talks');
+const talks = entries
+  .map(e => ({
+    slug: e.id,
+    ...e.data,
+    date: e.data.date?.toISOString(),
+  }))
+  .sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''));
+
+const allTags = [...new Set(talks.flatMap(t => t.tags))].sort();
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Talks — Daniel Bodky</title>
+    <meta name="description" content="Conference talks and presentations by Daniel Bodky" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <TalkExplorer talks={talks} allTags={allTags} client:load />
+  </body>
+</html>

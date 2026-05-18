@@ -15,7 +15,6 @@
     "@slidev/cli": "^52.15.2",
     "@slidev/theme-default": "latest",
     "astro": "^6.3.3",
-    "gray-matter": "^4.0.3",
     "preact": "^10.29.1"
   },
   "dependencies": {
