@@ -4,7 +4,8 @@
   "description": "A monorepo for my Slidev presentations",
   "main": "index.js",
   "scripts": {
-    "build": "node scripts/build-all.mjs"
+    "build": "node scripts/build-all.mjs",
+    "dev": "pnpm slidev"
   },
   "keywords": [
     "slidev",
