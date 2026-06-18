@@ -6,13 +6,9 @@ date: 2026-06-30
 event: Cloud Native Summit 2026
 location: Munich, Germany
 tags: ["Kubernetes", "Talos", "Talk"]
+layout: image
+image: ./public/cover.svg
 ---
-
-# Don't Debug, Reset
-
-## Managing Kubernetes the Declarative Way with Talos Linux
-
-Cloud Native Summit Munich 2026
 
 ---
 layout: section
@@ -414,3 +410,8 @@ layout: two-cols
 <h2 class="text-center">Feedback via Sessionize</h2>
 
 <img class="max-h-60 m-x-auto" alt="Sessionize Feedback QR code" src="./public/qr.png"/>
+
+---
+layout: image
+image: ./public/thankyou.svg
+---
