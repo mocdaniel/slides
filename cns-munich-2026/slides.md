@@ -7,7 +7,7 @@ event: Cloud Native Summit 2026
 location: Munich, Germany
 tags: ["Kubernetes", "Talos", "Talk"]
 layout: image
-image: ./public/cover.svg
+image: /cover.svg
 ---
 
 ---
@@ -412,5 +412,5 @@ layout: two-cols
 
 ---
 layout: image
-image: ./public/thankyou.svg
+image: /thankyou.svg
 ---
