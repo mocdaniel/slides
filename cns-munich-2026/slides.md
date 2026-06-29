@@ -22,7 +22,7 @@ layout: two-cols
 
 # Kubernetes is Layered
 
-## We operate and manage vertical stacks
+## We Operate and Manage Vertical Stacks
 
 ::left::
 
@@ -40,9 +40,9 @@ layout: two-cols
 
 ---
 
-# Each layer adds operational tasks
+# Each Layer Adds Operational Tasks
 
-## These might sound familiar
+## These Might Sound Familiar
 
 - OS Updates
 - CVE Patches
@@ -54,10 +54,9 @@ layout: two-cols
 
 ---
 
+# There's a Tool for That!
 
-# There's a tool for that!
-
-## Or many...
+## Or Many...
 
 <img class="w-120 m-x-auto" src="./public/k8s-tools.svg" alt="Kubernetes management tooling"/>
 
@@ -71,7 +70,7 @@ layout: section
 layout: two-cols
 ---
 
-# About me
+# About Me
 
 ::left::
 
@@ -102,7 +101,7 @@ layout: quote
 
 # Talos at a Glance
 
-## What does it do different?
+## What Does It Do Differently?
 
 Talos is...
 
@@ -121,7 +120,7 @@ layout: section
 
 # Minimalism
 
-## How Talos is packaged and distributed
+## How Talos is Packaged and Distributed
 
 Talos is...
 
@@ -229,7 +228,7 @@ layout: section
 
 # The Talos CLI
 
-## How to Interact with Talos
+## How to Interact With Talos
 
 `talosctl` is used for any kind of interaction with a Talos cluster:
 
@@ -243,7 +242,7 @@ layout: section
 
 # The Talos CLI
 
-## How to Interact with Talos
+## How to Interact With Talos
 
 `talosctl` provides **~50** commandlets for different purposes:
 
@@ -259,7 +258,7 @@ layout: section
 
 # The Basics
 
-## Common administration tasks on Talos Linux
+## Common Administration Tasks on Talos Linux
 
 ---
 
@@ -347,7 +346,7 @@ layout: section
 
 # Cattle, not Pets
 
-## When a Talos node breaks, this becomes the playbook
+## When a Talos Node Breaks, This Becomes the Playbook
 
 <img class="m-t-16 m-x-auto" src="./public/reset-flowchart.svg" alt="Flowchart for resetting a Talos node"/>
 
@@ -379,7 +378,7 @@ layout: section
 
 # Before the First Incident
 
-## Be prepared
+## Be Prepared
 
 - Understand what `talosctl` can do.<br/>
   _Learn one tool, but learn it well._
@@ -398,7 +397,7 @@ layout: two-cols
 
 # Thank You for Your Attention
 
-## Any questions?
+## Any Questions?
 
 ::left::
 - **Slides**:<br/>[slides.dbodky.me/cns-munich-2026](https://slides.dbodky.me/cns-munich-2026)
