@@ -15,14 +15,14 @@
   "author": "Daniel Bodky <mail@dbodky.me>",
   "type": "module",
   "devDependencies": {
-    "@slidev/cli": "^52.15.2",
+    "@slidev/cli": "^52.19.1",
     "@slidev/theme-default": "latest",
-    "@types/node": "^25.8.0"
+    "@types/node": "^26.4.0"
   },
   "dependencies": {
     "@iconify-json/fa6-brands": "^1.2.6",
-    "@iconify-json/vscode-icons": "^1.2.49",
+    "@iconify-json/vscode-icons": "^1.2.76",
     "@netways-managed-services/slidev-theme-nws": "1.1.1",
-    "@vercel/config": "^0.5.0"
+    "@vercel/config": "^0.7.0"
   }
 }
