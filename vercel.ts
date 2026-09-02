@@ -17,6 +17,8 @@ const catchAllSource =
 
 export const config: VercelConfig = {
   buildCommand: "pnpm build",
+  installCommand:
+    'env "pnpm_config_//git.netways.de/api/v4/projects/2053/packages/npm/:_authToken=$NWS_GITLAB_TOKEN" pnpm install',
   outputDirectory: "dist",
   rewrites: talks.map(
     (t) =>

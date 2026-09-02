@@ -14,6 +14,7 @@
   ],
   "author": "Daniel Bodky <mail@dbodky.me>",
   "type": "module",
+  "packageManager": "pnpm@11.24.0",
   "devDependencies": {
     "@slidev/cli": "^52.19.1",
     "@slidev/theme-default": "latest",
