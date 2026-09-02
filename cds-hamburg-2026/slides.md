@@ -352,7 +352,7 @@ layout: section
 
 ## When a Talos Node Breaks, This Becomes the Playbook
 
-<img class="m-t-16 m-x-auto" src="./public/reset-flowchart.svg" alt="Flowchart for resetting a Talos node"/>
+<img class="m-t-8 m-x-auto" src="./public/reset-flowchart.svg" alt="Flowchart for resetting a Talos node"/>
 
 
 ---
@@ -407,3 +407,13 @@ layout: two-cols
 - **Slides**:<br/>[slides.dbodky.me/cds-hamburg-2026](https://slides.dbodky.me/cds-hamburg-2026)
 - **HowTos**:<br/>[dbodky.me/docs/kubernetes/talos/howtos](https://dbodky.me/docs/kubernetes/talos/howtos)
 - **Docs**:<br/>[docs.siderolabs.com/talos](https://docs.siderolabs.com/talos)
+
+::right::
+
+Provide feedback:
+
+<img class="max-h-48" src="./public/qr.png" alt="Talkpulse feedback"/>
+
+<a class="text-4 text-gray m-x-auto" href="https://talkpulse.app/feedback/GF5XT32Z">talkpulse.app/feedback/GF5XT32Z</a>
+
+
