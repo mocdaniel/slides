@@ -28,6 +28,7 @@ layout: two-cols
   - Observability
   - GitOps
 - Grafana Champion
+- Running a homelab with multiple data sources
 
 ::right::
 
@@ -140,7 +141,7 @@ It connects your workloads through a dedicated _Tailnet_.
 
 ## Connect to your data sources without managing agents
 
-1. Add your data source (APIs, databases, etc.) to your _Tailnet_. <br/>E.g. by adding the host it's running on to your Tailnet<br/>or provisioning a sidecar container.
+1. Add your data source (APIs, databases, etc.) to your _Tailnet_. <br/>E.g. by adding the host it's running on to your Tailnet<br/>or by provisioning a sidecar container.
 2. Generate and pass an _Auth Key_ to the data source configuration in Grafana Cloud.
 3. Configure access policies in the Tailscale console.
 
