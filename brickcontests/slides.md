@@ -12,7 +12,7 @@ fonts:
 
 ---
 layout: image-right
-image: ./public/sigfig.png
+image: ./sigfig.png
 ---
 
 # About me
