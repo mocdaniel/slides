@@ -16,7 +16,7 @@ tags: ["Kubernetes", "Grafana", "Prometheus", "Kyverno"]
 
 ---
 layout: image
-image: ./public/letsplay.png
+image: ./letsplay.png
 ---
 
 ---
