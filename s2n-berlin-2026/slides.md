@@ -196,12 +196,8 @@ layout: section
 ## OpenAPI-konform und erweiterbar
 
 - Jede Interaktion mit Kubernetes läuft über die Kubernetes-API
-- Jede Anfrage an die API durchläuft vier Phasen:
-  1. Authentifizierung
-  2. Authorisierung
-  3. Admission
-  4. Persistierung
-- Die Kubernetes-API kann durch _CustomResourceDefinitions_ (CRDs) erweitert werden.<br/>Für jede CRD erstellt der API-Server neue _RESTful resource paths_.
+- Die Kubernetes-API kann durch _CustomResourceDefinitions_ (CRDs) erweitert werden.
+- Für jede CRD erstellt der API-Server neue _RESTful resource paths_.
 - CRDs ermöglichen die Darstellung beliebiger Ressourcen innerhalb von Kubernetes (inkl. Interaktion via `kubectl` oder anderen Controllern und Operatoren)
 
 ---
@@ -219,13 +215,13 @@ Jede CRD besteht aus folgenden Abschnitten:
 <ul>
 <li v-click="1">Name der API-Gruppe</li>
 <li v-click="2">Scope (Namespace oder Cluster)</li>
-<li v-click="3">Name(n) (Ein-/Mehrzahl, _Kind_, Abkürzungen)</li>
+<li v-click="3">Name(n) (Ein-/Mehrzahl, Kind, Abkürzungen)</li>
 <li v-click="4">Von der API angebotene Version(en)<br/>inklusive ihrer OpenAPI-Spezifikation</li>
 </ul>
 
 ::right::
 
-```yaml {none|4|16|17-20|7-15}
+```yaml {none|6|16|17-20|7-15}
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
