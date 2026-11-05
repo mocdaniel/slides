@@ -18,12 +18,12 @@
   "devDependencies": {
     "@slidev/cli": "^53.0.0",
     "@slidev/theme-default": "latest",
-    "@types/node": "^26.6.3"
+    "@types/node": "^26.6.6"
   },
   "dependencies": {
     "@iconify-json/fa6-brands": "^1.2.6",
-    "@iconify-json/vscode-icons": "^1.2.82",
+    "@iconify-json/vscode-icons": "^1.2.96",
     "@netways-managed-services/slidev-theme-nws": "1.1.1",
-    "@vercel/config": "^0.7.2"
+    "@vercel/config": "^0.14.1"
   }
 }
